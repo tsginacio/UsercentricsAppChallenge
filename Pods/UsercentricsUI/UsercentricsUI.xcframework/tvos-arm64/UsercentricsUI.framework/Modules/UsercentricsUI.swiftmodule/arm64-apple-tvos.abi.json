@@ -1,0 +1,3079 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsercentricsResourceLoader",
+        "printedName": "UsercentricsResourceLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleInput",
+            "printedName": "bundleInput",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UsercentricsUI@objc(cs)UsercentricsResourceLoader(cpy)bundleInput",
+            "mangledName": "$s14UsercentricsUI0A14ResourceLoaderC11bundleInputSo8NSBundleCSgvpZ",
+            "moduleName": "UsercentricsUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UsercentricsUI@objc(cs)UsercentricsResourceLoader(cm)bundleInput",
+                "mangledName": "$s14UsercentricsUI0A14ResourceLoaderC11bundleInputSo8NSBundleCSgvgZ",
+                "moduleName": "UsercentricsUI",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UsercentricsUI@objc(cs)UsercentricsResourceLoader(cm)setBundleInput:",
+                "mangledName": "$s14UsercentricsUI0A14ResourceLoaderC11bundleInputSo8NSBundleCSgvsZ",
+                "moduleName": "UsercentricsUI",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UsercentricsUI0A14ResourceLoaderC11bundleInputSo8NSBundleCSgvMZ",
+                "mangledName": "$s14UsercentricsUI0A14ResourceLoaderC11bundleInputSo8NSBundleCSgvMZ",
+                "moduleName": "UsercentricsUI",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsResourceLoader",
+                "printedName": "UsercentricsUI.UsercentricsResourceLoader",
+                "usr": "c:@M@UsercentricsUI@objc(cs)UsercentricsResourceLoader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UsercentricsUI@objc(cs)UsercentricsResourceLoader(im)init",
+            "mangledName": "$s14UsercentricsUI0A14ResourceLoaderCACycfc",
+            "moduleName": "UsercentricsUI",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UsercentricsUI@objc(cs)UsercentricsResourceLoader",
+        "mangledName": "$s14UsercentricsUI0A14ResourceLoaderC",
+        "moduleName": "UsercentricsUI",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsercentricsBanner",
+        "printedName": "UsercentricsBanner",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bannerSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsBanner",
+                "printedName": "UsercentricsUI.UsercentricsBanner",
+                "usr": "s:14UsercentricsUI0A6BannerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UsercentricsUI.BannerSettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerSettings",
+                    "printedName": "UsercentricsUI.BannerSettings",
+                    "usr": "s:14UsercentricsUI14BannerSettingsV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14UsercentricsUI0A6BannerC14bannerSettingsAcA0cE0VSg_tcfc",
+            "mangledName": "$s14UsercentricsUI0A6BannerC14bannerSettingsAcA0cE0VSg_tcfc",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showFirstLayer",
+            "printedName": "showFirstLayer(hostView:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsConsentUserResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsConsentUserResponse",
+                    "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                    "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A6BannerC14showFirstLayer8hostView17completionHandlerySo16UIViewControllerC_yAA0A19ConsentUserResponseVctF",
+            "mangledName": "$s14UsercentricsUI0A6BannerC14showFirstLayer8hostView17completionHandlerySo16UIViewControllerC_yAA0A19ConsentUserResponseVctF",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showFirstLayer",
+            "printedName": "showFirstLayer(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsConsentUserResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsConsentUserResponse",
+                    "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                    "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A6BannerC14showFirstLayer17completionHandleryyAA0A19ConsentUserResponseVc_tF",
+            "mangledName": "$s14UsercentricsUI0A6BannerC14showFirstLayer17completionHandleryyAA0A19ConsentUserResponseVc_tF",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSecondLayer",
+            "printedName": "showSecondLayer(hostView:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsConsentUserResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsConsentUserResponse",
+                    "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                    "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A6BannerC15showSecondLayer8hostView17completionHandlerySo16UIViewControllerC_yAA0A19ConsentUserResponseVctF",
+            "mangledName": "$s14UsercentricsUI0A6BannerC15showSecondLayer8hostView17completionHandlerySo16UIViewControllerC_yAA0A19ConsentUserResponseVctF",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSecondLayer",
+            "printedName": "showSecondLayer(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsConsentUserResponse) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsConsentUserResponse",
+                    "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                    "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A6BannerC15showSecondLayer17completionHandleryyAA0A19ConsentUserResponseVc_tF",
+            "mangledName": "$s14UsercentricsUI0A6BannerC15showSecondLayer17completionHandleryyAA0A19ConsentUserResponseVc_tF",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14UsercentricsUI0A6BannerC",
+        "mangledName": "$s14UsercentricsUI0A6BannerC",
+        "moduleName": "UsercentricsUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsercentricsConsentUserResponse",
+        "printedName": "UsercentricsConsentUserResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "consents",
+            "printedName": "consents",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Usercentrics.UsercentricsServiceConsent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsServiceConsent",
+                    "printedName": "Usercentrics.UsercentricsServiceConsent",
+                    "usr": "c:objc(cs)UsercentricsUsercentricsServiceConsent"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14UsercentricsUI0A19ConsentUserResponseV8consentsSaySo0aa7ServiceC0CGvp",
+            "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV8consentsSaySo0aa7ServiceC0CGvp",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Usercentrics.UsercentricsServiceConsent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsercentricsServiceConsent",
+                        "printedName": "Usercentrics.UsercentricsServiceConsent",
+                        "usr": "c:objc(cs)UsercentricsUsercentricsServiceConsent"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UsercentricsUI0A19ConsentUserResponseV8consentsSaySo0aa7ServiceC0CGvg",
+                "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV8consentsSaySo0aa7ServiceC0CGvg",
+                "moduleName": "UsercentricsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "controllerId",
+            "printedName": "controllerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14UsercentricsUI0A19ConsentUserResponseV12controllerIdSSvp",
+            "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV12controllerIdSSvp",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UsercentricsUI0A19ConsentUserResponseV12controllerIdSSvg",
+                "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV12controllerIdSSvg",
+                "moduleName": "UsercentricsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userInteraction",
+            "printedName": "userInteraction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsUserInteraction",
+                "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                "usr": "s:14UsercentricsUI0A15UserInteractionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14UsercentricsUI0A19ConsentUserResponseV15userInteractionAA0adG0Ovp",
+            "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV15userInteractionAA0adG0Ovp",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsUserInteraction",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                    "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UsercentricsUI0A19ConsentUserResponseV15userInteractionAA0adG0Ovg",
+                "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV15userInteractionAA0adG0Ovg",
+                "moduleName": "UsercentricsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(consents:controllerId:userInteraction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsConsentUserResponse",
+                "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Usercentrics.UsercentricsServiceConsent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsServiceConsent",
+                    "printedName": "Usercentrics.UsercentricsServiceConsent",
+                    "usr": "c:objc(cs)UsercentricsUsercentricsServiceConsent"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsUserInteraction",
+                "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                "usr": "s:14UsercentricsUI0A15UserInteractionO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14UsercentricsUI0A19ConsentUserResponseV8consents12controllerId15userInteractionACSaySo0aa7ServiceC0CG_SSAA0adJ0Otcfc",
+            "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV8consents12controllerId15userInteractionACSaySo0aa7ServiceC0CG_SSAA0adJ0Otcfc",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsConsentUserResponse",
+                "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsConsentUserResponse",
+                "printedName": "UsercentricsUI.UsercentricsConsentUserResponse",
+                "usr": "s:14UsercentricsUI0A19ConsentUserResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A19ConsentUserResponseV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV2eeoiySbAC_ACtFZ",
+            "moduleName": "UsercentricsUI",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14UsercentricsUI0A19ConsentUserResponseV",
+        "mangledName": "$s14UsercentricsUI0A19ConsentUserResponseV",
+        "moduleName": "UsercentricsUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsercentricsUserInteraction",
+        "printedName": "UsercentricsUserInteraction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "acceptAll",
+            "printedName": "acceptAll",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsUserInteraction.Type) -> UsercentricsUI.UsercentricsUserInteraction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsUserInteraction",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                    "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsercentricsUserInteraction",
+                        "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                        "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO9acceptAllyA2CmF",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO9acceptAllyA2CmF",
+            "moduleName": "UsercentricsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "denyAll",
+            "printedName": "denyAll",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsUserInteraction.Type) -> UsercentricsUI.UsercentricsUserInteraction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsUserInteraction",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                    "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsercentricsUserInteraction",
+                        "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                        "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO7denyAllyA2CmF",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO7denyAllyA2CmF",
+            "moduleName": "UsercentricsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "granular",
+            "printedName": "granular",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsUserInteraction.Type) -> UsercentricsUI.UsercentricsUserInteraction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsUserInteraction",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                    "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsercentricsUserInteraction",
+                        "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                        "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO8granularyA2CmF",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO8granularyA2CmF",
+            "moduleName": "UsercentricsUI"
+          },
+          {
+            "kind": "Var",
+            "name": "noInteraction",
+            "printedName": "noInteraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UsercentricsUI.UsercentricsUserInteraction.Type) -> UsercentricsUI.UsercentricsUserInteraction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsercentricsUserInteraction",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                    "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UsercentricsUI.UsercentricsUserInteraction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsercentricsUserInteraction",
+                        "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                        "usr": "s:14UsercentricsUI0A15UserInteractionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO02noD0yA2CmF",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO02noD0yA2CmF",
+            "moduleName": "UsercentricsUI"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsUserInteraction",
+                "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                "usr": "s:14UsercentricsUI0A15UserInteractionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UsercentricsUserInteraction",
+                "printedName": "UsercentricsUI.UsercentricsUserInteraction",
+                "usr": "s:14UsercentricsUI0A15UserInteractionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO2eeoiySbAC_ACtFZ",
+            "moduleName": "UsercentricsUI",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO9hashValueSivp",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO9hashValueSivp",
+            "moduleName": "UsercentricsUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UsercentricsUI0A15UserInteractionO9hashValueSivg",
+                "mangledName": "$s14UsercentricsUI0A15UserInteractionO9hashValueSivg",
+                "moduleName": "UsercentricsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UsercentricsUI0A15UserInteractionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14UsercentricsUI0A15UserInteractionO4hash4intoys6HasherVz_tF",
+            "moduleName": "UsercentricsUI",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14UsercentricsUI0A15UserInteractionO",
+        "mangledName": "$s14UsercentricsUI0A15UserInteractionO",
+        "moduleName": "UsercentricsUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerSettings",
+        "printedName": "BannerSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14UsercentricsUI14BannerSettingsV4logoSo7UIImageCvp",
+            "mangledName": "$s14UsercentricsUI14BannerSettingsV4logoSo7UIImageCvp",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UsercentricsUI14BannerSettingsV4logoSo7UIImageCvg",
+                "mangledName": "$s14UsercentricsUI14BannerSettingsV4logoSo7UIImageCvg",
+                "moduleName": "UsercentricsUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerSettings",
+                "printedName": "UsercentricsUI.BannerSettings",
+                "usr": "s:14UsercentricsUI14BannerSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14UsercentricsUI14BannerSettingsV4logoACSo7UIImageC_tcfc",
+            "mangledName": "$s14UsercentricsUI14BannerSettingsV4logoACSo7UIImageC_tcfc",
+            "moduleName": "UsercentricsUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14UsercentricsUI14BannerSettingsV",
+        "mangledName": "$s14UsercentricsUI14BannerSettingsV",
+        "moduleName": "UsercentricsUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Usercentrics",
+        "printedName": "Usercentrics",
+        "declKind": "Import",
+        "moduleName": "UsercentricsUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "active",
+            "printedName": "active()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sa14UsercentricsUISo18NSLayoutConstraintCRszlE6activeyyF",
+            "mangledName": "$sSa14UsercentricsUISo18NSLayoutConstraintCRszlE6activeyyF",
+            "moduleName": "UsercentricsUI",
+            "genericSig": "<τ_0_0 where τ_0_0 == UIKit.NSLayoutConstraint>",
+            "sugared_genericSig": "<Element where Element == UIKit.NSLayoutConstraint>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/CMPCoordinator.swift",
+      "kind": "Array",
+      "offset": 703,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 120,
+      "length": 25,
+      "value": "\"UsercentricsUIResources\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 31,
+      "value": "\"UsercentricsUI_UsercentricsUI\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 8,
+      "value": "\"copied\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1869,
+      "length": 6,
+      "value": "\"copy\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2014,
+      "length": 6,
+      "value": "\"back\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2090,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 12,
+      "value": "\"bannerLogo\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2256,
+      "length": 17,
+      "value": "\"bannerTestImage\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2346,
+      "length": 14,
+      "value": "\"arrowForward\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2431,
+      "length": 4,
+      "value": "\"no\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2506,
+      "length": 5,
+      "value": "\"yes\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUI\/Resources\/ResourceLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 8,
+      "value": "\"expand\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/Details\/DetailsViewModel.swift",
+      "kind": "Array",
+      "offset": 1034,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Buttons\/ButtonsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 130,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Buttons\/ButtonsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 21,
+      "value": "\"UsercentricsUI.ButtonsViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Managers\/ToggleStateManager.swift",
+      "kind": "Dictionary",
+      "offset": 427,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1393,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1725,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2747,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "FloatLiteral",
+      "offset": 4271,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4921,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6582,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "FloatLiteral",
+      "offset": 7960,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9308,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9668,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10016,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10732,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11000,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11271,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11551,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIView+Constraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11848,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 87,
+      "length": 4,
+      "value": "32.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 133,
+      "length": 4,
+      "value": "64.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 193,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 242,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 308,
+      "length": 4,
+      "value": "57.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 350,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 390,
+      "length": 4,
+      "value": "29.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 433,
+      "length": 4,
+      "value": "23.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 512,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 564,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 619,
+      "length": 4,
+      "value": "70.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/FirstLayerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 103,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/FirstLayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 122,
+      "length": 24,
+      "value": "\"UsercentricsUI.FirstLayerViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/CardList\/CardListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/CardList\/CardListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/CardList\/CardListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/CardList\/CardListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 64,
+      "length": 22,
+      "value": "\"UsercentricsUI.CardListViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 100,
+      "length": 4,
+      "value": "75.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 142,
+      "length": 5,
+      "value": "250.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 522,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 746,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 819,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 859,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 908,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/FirstLayer\/Content\/FirstLayerContentViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 31,
+      "value": "\"UsercentricsUI.FirstLayerContentViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/QRCode\/QRCodeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 91,
+      "length": 5,
+      "value": "512.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/QRCode\/QRCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 112,
+      "length": 20,
+      "value": "\"UsercentricsUI.QRCodeViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/NSAttributedStrings+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1603,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/Details\/DetailsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Views\/SecondLayer\/Details\/DetailsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 64,
+      "length": 21,
+      "value": "\"UsercentricsUI.DetailsViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIImage+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 109,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIImage+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 120,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 18,
+      "value": "\"UsercentricsUI.BaseViewController\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIColor+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 111,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/Shared\/Extensions\/UIColor+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 356,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Managers\/DependencyManager.swift",
+      "kind": "Array",
+      "offset": 1457,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Managers\/DependencyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1889,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Managers\/DependencyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1905,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/mobile-sdk\/platforms\/ios\/UsercentricsUI\/Framework\/UsercentricsUITV\/Managers\/DependencyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2172,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

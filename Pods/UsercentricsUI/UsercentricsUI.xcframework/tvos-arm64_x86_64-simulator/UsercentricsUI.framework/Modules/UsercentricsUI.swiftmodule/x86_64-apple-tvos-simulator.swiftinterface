@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-tvos12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UsercentricsUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import Usercentrics
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc public class UsercentricsResourceLoader : ObjectiveC.NSObject {
+  @objc public static var bundleInput: Foundation.Bundle?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.Array where Element == UIKit.NSLayoutConstraint {
+  public func active()
+}
+public class UsercentricsBanner {
+  public init(bannerSettings: UsercentricsUI.BannerSettings? = nil)
+  public func showFirstLayer(hostView: UIKit.UIViewController, completionHandler: @escaping (UsercentricsUI.UsercentricsConsentUserResponse) -> Swift.Void)
+  public func showFirstLayer(completionHandler: @escaping (UsercentricsUI.UsercentricsConsentUserResponse) -> Swift.Void)
+  public func showSecondLayer(hostView: UIKit.UIViewController, completionHandler: @escaping (UsercentricsUI.UsercentricsConsentUserResponse) -> Swift.Void)
+  public func showSecondLayer(completionHandler: @escaping (UsercentricsUI.UsercentricsConsentUserResponse) -> Swift.Void)
+  @objc deinit
+}
+public struct UsercentricsConsentUserResponse : Swift.Equatable {
+  public let consents: [Usercentrics.UsercentricsServiceConsent]
+  public let controllerId: Swift.String
+  public let userInteraction: UsercentricsUI.UsercentricsUserInteraction
+  public init(consents: [Usercentrics.UsercentricsServiceConsent], controllerId: Swift.String, userInteraction: UsercentricsUI.UsercentricsUserInteraction)
+  public static func == (a: UsercentricsUI.UsercentricsConsentUserResponse, b: UsercentricsUI.UsercentricsConsentUserResponse) -> Swift.Bool
+}
+public enum UsercentricsUserInteraction {
+  case acceptAll
+  case denyAll
+  case granular
+  case noInteraction
+  public static func == (a: UsercentricsUI.UsercentricsUserInteraction, b: UsercentricsUI.UsercentricsUserInteraction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct BannerSettings {
+  public let logo: UIKit.UIImage
+  public init(logo: UIKit.UIImage)
+}
+extension UsercentricsUI.UsercentricsUserInteraction : Swift.Equatable {}
+extension UsercentricsUI.UsercentricsUserInteraction : Swift.Hashable {}
