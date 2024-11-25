@@ -25,4 +25,4 @@ This app implements a consent banner using the Usercentrics UI framework and cal
 
 ## TODO
 - Error handling
-- Unit tests
+- UITesting / Unit testing
